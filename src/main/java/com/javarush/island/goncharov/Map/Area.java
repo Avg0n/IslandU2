@@ -1,4 +1,4 @@
 package com.javarush.island.goncharov.Map;
 
-public class District {
+public class Area {
 }

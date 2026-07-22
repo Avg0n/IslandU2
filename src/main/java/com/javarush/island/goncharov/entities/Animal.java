@@ -1,10 +1,12 @@
 package com.javarush.island.goncharov.entities;
 
-public abstract class Animal {
+import com.javarush.island.goncharov.actions.*;
+
+public abstract class Animal implements Die, Eat, Move, Reproduce {
     private final String name;
-    private final int weight;
+    private final double maxWeight;
     private final int maxQuantity;
     private final int maxRange;
-    private final int maxFood;
+    private final double maxFood;
 
 }
